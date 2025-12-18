@@ -52,7 +52,6 @@ class _NewItemState extends State<NewItem> {
 
   void onAdd() {
     // Will be implemented later - Create and return the new grocery
-    if (!_formKey.currentState!.validate()) return;
 
     final groceryName = _nameController.text;
     final quantity = int.parse(_quantityController.text);
